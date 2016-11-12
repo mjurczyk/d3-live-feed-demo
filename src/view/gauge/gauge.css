@@ -1,0 +1,59 @@
+.gauge {
+  display: inline-block;
+  width: 300px;
+  padding: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.gauge-graph {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.gauge-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px #e6e6e6;
+}
+
+.gauge-inner__label {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.gauge-inner__value {
+  color: #d4d4d4;
+}
+
+.gauge-inner__value__percentage {
+  color: #afafaf;
+  margin-right: 10px;
+}
+
+.gauge-inner__secondary {
+  text-align: right;
+}
+
+.gauge-graph__label {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-75%);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c1c1c1;
+  z-index: 2;
+}
+
+.gauge-graph__label__value {
+  color: #333;
+  font-size: 24px;
+}

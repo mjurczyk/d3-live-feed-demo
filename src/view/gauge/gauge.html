@@ -1,0 +1,34 @@
+<div class="gauge">
+  <div class="gauge-graph">
+    <div class="gauge-graph__label">
+      {label}
+      <div class="gauge-graph__label__value">
+        {valueSum}{valueSumUnit}
+      </div>
+    </div>
+  </div>
+  <div class="gauge-inner">
+    <div class="gauge-inner__primary">
+      <div class="gauge-inner__label">
+        {primary.label}
+      </div>
+      <div class="gauge-inner__value">
+        <span class="gauge-inner__value__percentage">
+          {primaryRatio}%
+        </span>
+        {primary.value}{primary.valueUnit}
+      </div>
+    </div>
+    <div class="gauge-inner__secondary">
+      <div class="gauge-inner__label">
+        {secondary.label}
+      </div>
+      <div class="gauge-inner__value">
+        <span class="gauge-inner__value__percentage">
+          {secondaryRatio}%
+        </span>
+        {secondary.value}{secondary.valueUnit}
+      </div>
+    </div>
+  </div>
+</div>
