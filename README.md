@@ -1,3 +1,5 @@
+<div style="text-align:center"><img src ="https://cloud.githubusercontent.com/assets/9549760/20239365/ed08b1f0-a8fe-11e6-8454-61286daf63ba.jpg" /></div>
+
 *Tested on Safari / Chrome / Firefox / iPhone 6s / iPhone 4s*
 
 ## Run
